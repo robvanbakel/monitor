@@ -18,7 +18,6 @@
     "type": "git",
     "url": "git+https://github.com/robvanbakel/monitor.git"
   },
-  "keywords": [],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/robvanbakel/monitor/issues"
@@ -28,11 +27,11 @@
     "axios": "^0.25.0",
     "dotenv": "^16.0.0",
     "mongoose": "^6.2.1",
-    "node-schedule": "^2.1.0"
+    "node-schedule": "^2.1.0",
+    "typescript": "^4.5.5"
   },
   "devDependencies": {
     "@types/node": "^17.0.17",
-    "nodemon": "^2.0.15",
-    "typescript": "^4.5.5"
+    "nodemon": "^2.0.15"
   }
 }

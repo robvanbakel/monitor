@@ -26,6 +26,8 @@
   "homepage": "https://github.com/robvanbakel/monitor#readme",
   "dependencies": {
     "axios": "^0.25.0",
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.2.1",
     "node-schedule": "^2.1.0"
   },
   "devDependencies": {

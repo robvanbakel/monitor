@@ -6,7 +6,7 @@ const id = [path.basename(__dirname), path.basename(__filename, '.js')].join('.'
 
 export default async () => {
   try {
-    const res = await axios.post('https://gotiny.cc/api', { input: 'bolcom' })
+    const res = await axios.post('https://gotiny.cc/api', { input: 'amazon' })
 
     const tests = [res.status === 200, res.data.error.source === 'api', res.data.error.code === 'no-link-found']
 

@@ -6,9 +6,9 @@ const id = [path.basename(__dirname), path.basename(__filename, '.js')].join('.'
 
 export default async () => {
   try {
-    const res = await axios.get('https://gotiny.cc/api/test')
+    const res = await axios.get('https://gotiny.cc/api/y68hxc')
 
-    const tests = [res.status === 200, res.data === 'https://www.npmjs.com/package/gotiny']
+    const tests = [res.status === 200, res.data === 'https://amazon.com/very-long-url']
 
     if (!tests.every((test) => test)) return log.error(id, res)
 

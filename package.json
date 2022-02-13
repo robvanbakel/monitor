@@ -1,0 +1,36 @@
+{
+  "name": "monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "npm run build && node dist",
+    "dev": "tsc -w",
+    "devStart": "nodemon dist"
+  },
+  "author": {
+    "name": "Rob van Bakel",
+    "email": "robbakel@gmail.com",
+    "url": "https://robvanbakel.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robvanbakel/monitor.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robvanbakel/monitor/issues"
+  },
+  "homepage": "https://github.com/robvanbakel/monitor#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "node-schedule": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  }
+}

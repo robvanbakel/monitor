@@ -1,6 +1,7 @@
 import gotiny from './gotiny'
 import portfolio from './portfolio'
 import dumpertbot from './dumpertbot'
+import spark from './spark'
 
 const main = async () => {
   console.time('Time elapsed')
@@ -8,6 +9,7 @@ const main = async () => {
   await gotiny()
   await portfolio()
   await dumpertbot()
+  await spark()
   console.timeEnd('Time elapsed')
 }
 

@@ -1,6 +1,6 @@
 # Monitor
 
-Monitor regularly performs certain checks for different projects and logs any errors found. Logs are saved as `/logs/<TimestampISO>_<projectId>.<testId>.log`.
+Monitor regularly performs certain checks for different projects and logs any errors found.
 
 ### Adding new tests to an existing project
 * Create a new `ts` file in the project's directory with a descriptive identifier as its name

@@ -1,3 +1,5 @@
+import schedule from 'node-schedule'
+
 import gotiny from './gotiny'
 import portfolio from './portfolio'
 import dumpertbot from './dumpertbot'
@@ -13,4 +15,4 @@ const main = async () => {
   console.timeEnd('Time elapsed')
 }
 
-main()
+schedule.scheduleJob(`*/20 * * * *`, main);
